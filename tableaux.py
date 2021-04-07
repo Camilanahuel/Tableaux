@@ -124,12 +124,7 @@ def par_complementario(l):
 						return True
 				else:
 					return True
-			elif (complemento(j).label==i.label):
-				if(complemento(j).label =='-'):
-					if(complemento(j).right.label==i.right.label):
-						return True
-				else:
-					return True
+
 	return False
 
 	pass
